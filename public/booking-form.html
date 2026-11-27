@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+  <head><meta charset="utf-8" /><title>Formulaire de rendez-vous</title></head>
+  <body>
+    <form name="rendez-vous" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="rendez-vous" />
+      <input name="name" />
+      <input name="email" type="email" />
+      <input name="phone" type="tel" />
+      <select name="motif"><option>Autre</option></select>
+      <select name="consultation"><option>Première consultation</option></select>
+      <select name="mode"><option>Au cabinet</option></select>
+      <input name="date" type="date" />
+      <select name="creneau"><option>Indifférent</option></select>
+      <input type="radio" name="prescription" value="Oui" />
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
+  </body>
+</html>
